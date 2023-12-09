@@ -13,7 +13,7 @@ RUN --mount=target=. \
     mv /clash* /clash
 
 FROM alpine:latest
-LABEL org.opencontainers.image.source="https://github.com/Dreamacro/clash"
+LABEL org.opencontainers.image.source="https://github.com/opusb/clash-dev"
 
 COPY --from=builder /usr/share/zoneinfo /usr/share/zoneinfo
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/

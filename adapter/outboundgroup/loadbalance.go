@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/Dreamacro/clash/adapter/outbound"
-	"github.com/Dreamacro/clash/common/murmur3"
-	"github.com/Dreamacro/clash/common/singledo"
-	"github.com/Dreamacro/clash/component/dialer"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/constant/provider"
+	"github.com/opusb/clash-dev/adapter/outbound"
+	"github.com/opusb/clash-dev/common/murmur3"
+	"github.com/opusb/clash-dev/common/singledo"
+	"github.com/opusb/clash-dev/component/dialer"
+	C "github.com/opusb/clash-dev/constant"
+	"github.com/opusb/clash-dev/constant/provider"
 
 	"golang.org/x/net/publicsuffix"
 )

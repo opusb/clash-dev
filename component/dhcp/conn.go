@@ -5,7 +5,7 @@ import (
 	"net"
 	"runtime"
 
-	"github.com/Dreamacro/clash/component/dialer"
+	"github.com/opusb/clash-dev/component/dialer"
 )
 
 func ListenDHCPClient(ctx context.Context, ifaceName string) (net.PacketConn, error) {

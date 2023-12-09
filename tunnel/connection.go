@@ -6,9 +6,9 @@ import (
 	"net/netip"
 	"time"
 
-	N "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/common/pool"
-	C "github.com/Dreamacro/clash/constant"
+	N "github.com/opusb/clash-dev/common/net"
+	"github.com/opusb/clash-dev/common/pool"
+	C "github.com/opusb/clash-dev/constant"
 )
 
 func handleUDPToRemote(packet C.UDPPacket, pc C.PacketConn, metadata *C.Metadata) error {

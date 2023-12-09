@@ -6,13 +6,13 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/Dreamacro/clash/component/dialer"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/transport/shadowsocks/core"
-	"github.com/Dreamacro/clash/transport/shadowsocks/shadowaead"
-	"github.com/Dreamacro/clash/transport/shadowsocks/shadowstream"
-	"github.com/Dreamacro/clash/transport/ssr/obfs"
-	"github.com/Dreamacro/clash/transport/ssr/protocol"
+	"github.com/opusb/clash-dev/component/dialer"
+	C "github.com/opusb/clash-dev/constant"
+	"github.com/opusb/clash-dev/transport/shadowsocks/core"
+	"github.com/opusb/clash-dev/transport/shadowsocks/shadowaead"
+	"github.com/opusb/clash-dev/transport/shadowsocks/shadowstream"
+	"github.com/opusb/clash-dev/transport/ssr/obfs"
+	"github.com/opusb/clash-dev/transport/ssr/protocol"
 )
 
 type ShadowSocksR struct {

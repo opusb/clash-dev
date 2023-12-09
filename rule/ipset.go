@@ -1,9 +1,9 @@
 package rules
 
 import (
-	"github.com/Dreamacro/clash/component/ipset"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
+	"github.com/opusb/clash-dev/component/ipset"
+	C "github.com/opusb/clash-dev/constant"
+	"github.com/opusb/clash-dev/log"
 )
 
 type IPSet struct {

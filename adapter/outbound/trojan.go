@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/Dreamacro/clash/component/dialer"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/transport/gun"
-	"github.com/Dreamacro/clash/transport/trojan"
+	"github.com/opusb/clash-dev/component/dialer"
+	C "github.com/opusb/clash-dev/constant"
+	"github.com/opusb/clash-dev/transport/gun"
+	"github.com/opusb/clash-dev/transport/trojan"
 
 	"golang.org/x/net/http2"
 )

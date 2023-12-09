@@ -3,9 +3,9 @@ package adapter
 import (
 	"fmt"
 
-	"github.com/Dreamacro/clash/adapter/outbound"
-	"github.com/Dreamacro/clash/common/structure"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/opusb/clash-dev/adapter/outbound"
+	"github.com/opusb/clash-dev/common/structure"
+	C "github.com/opusb/clash-dev/constant"
 )
 
 func ParseProxy(mapping map[string]any) (C.Proxy, error) {

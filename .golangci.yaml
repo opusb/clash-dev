@@ -17,7 +17,7 @@ linters-settings:
     custom-order: true
     sections:
       - standard
-      - prefix(github.com/Dreamacro/clash)
+      - prefix(github.com/opusb/clash-dev)
       - default
   staticcheck:
     go: '1.20'
